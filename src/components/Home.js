@@ -9,7 +9,7 @@ const Home = () => {
     const [error, setError] = useState(false)
     const [resultUrl, setResultUrl] = useState({})
     
-    const shorternLink = `https://api.shrtco.de/v2/shorten?url=${url}`
+    const shortenLink = `https://api.shrtco.de/v2/shorten?url=${url}`
 
 
     function validateUrl(){
